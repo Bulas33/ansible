@@ -11,4 +11,4 @@
   tasks:
   - name: PLAY-2 and PLAY-2
     ansible.builtin.debug:
-     msg: "Hello from PLAY-1 and TASK-1"
+     msg: "Hello from PLAY-2 and TASK-2"
