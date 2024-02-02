@@ -5,8 +5,8 @@
    Trainer: "Sunil"
    Duration: "110HRS"
   tasks:
-   - name: check variables
-   vars:
+  - name: check variables
+    vars:
       Course: "Devops with AWS"
-      ansible.buitin.debug:
+    ansible.buitin.debug:
       msg: "Hi I am Learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}" 
