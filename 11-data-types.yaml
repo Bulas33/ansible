@@ -2,11 +2,11 @@
   hosts: localhost
   vars:
     NAME: Sunil #key value
-    SKILLS: # skills is a list type
-   - Devops
-   - shell
-   - Ansible
-   - linux
+    Skills: # skills is a list type
+    - Devops
+    - shell
+    - Ansible
+    - linux
     Experience: # experience is map type.it contains key value pair
       Devops: 6
       AWS:  3
@@ -19,7 +19,7 @@
 
  - name: print list
   ansible.builtin.debug:
-    msg: "skills:  {{SKILLS}}"   
+    msg: "skills:  {{Skills}}"   
 
  - name: print map
   ansible.builtin.debug:
