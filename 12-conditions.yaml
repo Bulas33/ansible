@@ -4,6 +4,7 @@
   - name: check roboshop user exits or not
     ansible.builtin.command: id roboshop
     register: user #user is avariable
+    ignore_errors: true #ansible will not exit even it got error
 
 
   - name: print variable value
